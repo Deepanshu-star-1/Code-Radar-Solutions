@@ -7,7 +7,7 @@ int main(){
         int p=1;
         for(int j=1 ;j<=n;j++){
             printf("%d",p);
-            int cu = p * (i+j)/(j-1);
+            int p = p * (i+j)/(j-1);
         }
     }
 
