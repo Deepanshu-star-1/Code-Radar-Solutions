@@ -10,7 +10,7 @@ int main(){
             a++;
 
         }
-        printf("\n")
+        printf("\n");
 
     }
 }
