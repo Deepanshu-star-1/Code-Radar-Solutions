@@ -10,6 +10,6 @@ int main(){
         for(int k=1; k<=2i+1;k++){
             printf("*");
         }
-        printf("/n");
+        printf("\n");
     }
 }
