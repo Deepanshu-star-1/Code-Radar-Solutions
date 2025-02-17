@@ -6,9 +6,8 @@ int main(){
     for(int i=1;i<=n;i++){
         int a = 65;
         for(int j=1;j<=i;j++){
-            char ch = 65 ;
+            char ch = 65 + j -1 ;
             printf("%c ",ch);
-            ch =ch +1;
         }
         printf("\n");
     }
