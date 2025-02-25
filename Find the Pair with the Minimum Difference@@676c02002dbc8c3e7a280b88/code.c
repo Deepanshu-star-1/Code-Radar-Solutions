@@ -27,6 +27,10 @@ int main() {
 
     // Loop to find the minimum difference
     for(int i = 0; i < n - 1; i++) {
+        if(n==1){
+        printf("%d",1);
+        break;
+    }
 
         int diff = arr[i + 1] - arr[i]; // Difference between consecutive elements
         if (diff < min_diff) {
