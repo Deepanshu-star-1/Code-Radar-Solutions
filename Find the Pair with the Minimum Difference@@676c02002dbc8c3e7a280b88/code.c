@@ -1,13 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Comparison function for qsort
+int compare(const void *a, const void *b) {
+    return (*(int *)a - *(int *)b);
+}
+
 int main() {
     int n;
     scanf("%d", &n);
     int arr[n];
+    
+    // Read the array elements
     for(int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
+    
+    // Sort the array
     qsort(arr, n, sizeof(int), compare); 
 
     int min_diff = __INT_MAX__; // Initialize min_diff to the maximum integer value
@@ -23,11 +32,7 @@ int main() {
         }
     }
 
-    printf("%d %d\n", u, v); // Output the pair with the minimum difference
+    // Output the pair with the minimum difference
+    printf("%d %d\n", u, v); 
     return 0;
-}
-
-// Comparator function for qsort
-int compare(const void *a, const void *b) {
-    return (*(int*)a - *(int*)b);
 }
