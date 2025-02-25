@@ -10,7 +10,7 @@ int main(){
     }
     int d=0;
     int u=0;
-    int n=0;
+    int m=0;
     for(int i=0;i<n;i++){
         int a = arr[i];
         int b = arr[i+1];
@@ -18,9 +18,9 @@ int main(){
             continue;
         }else{
             u=a;
-            n=b;
+            m=b;
         }
     }
-    printf("%d %d",u,n);
+    printf("%d %d",u,m);
 
 }
