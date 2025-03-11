@@ -1,7 +1,12 @@
 // Your code here...
 #include<stdio.h>
-bubbleSort(int arr,int n){
-    for(int i=0;i<n-1;i++){
+void swap(int* a, int* b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+bubbleSort(int arr[],int n){
+    for(int i=0;i<n-1-i;i++){
         for(int j=0;j<n-1;j++){
             if(arr[j]>arr[j+1]){
                 swap(arr[j],arr[j+1]);
@@ -9,7 +14,7 @@ bubbleSort(int arr,int n){
         }
     }
 }
-printArray(int arr,int n ){
+printArray(int arr[],int n ){
     for(int i=0;i<=n;i++){
         printf("%d ",arr[i]);
     }
