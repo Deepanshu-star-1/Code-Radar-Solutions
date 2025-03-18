@@ -13,8 +13,8 @@ int isPrime(num){
 
     }
     if(flag==true){
-        printf("%d\n",1);
+        return 1
     }else{
-        printf("%d\n");
+        return 0
     }
 }
