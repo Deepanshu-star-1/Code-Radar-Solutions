@@ -1,5 +1,5 @@
 // Your code here...
-int isPrime(num){
+void isPrime(num){
     bool flag =true;
     if(num<=1){
         flag=false;
