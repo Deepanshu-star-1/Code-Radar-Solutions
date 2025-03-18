@@ -1,6 +1,6 @@
 // Your code here...
 isPrime(num){
-    int flag =true;
+    bool flag =true;
     if(n<=1){
         flag=false;
     }else {
