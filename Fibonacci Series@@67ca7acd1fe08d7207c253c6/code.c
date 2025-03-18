@@ -8,7 +8,8 @@ int f(int n){
         for(int i=1;i<=n;i++){
             printf("%d ",a);
             a=b;
-            int c=a+b;
+            int c;
+            c=a+b;
             b=c;
         }
     }  
