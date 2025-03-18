@@ -17,4 +17,5 @@ int main(){
     int n;
     scanf("%d",&n);
     fibonacciseries(n);
+    return 0;
 }
