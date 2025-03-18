@@ -1,5 +1,5 @@
 // Your code here...
-isprime(n){
+isPrime(n){
     int flag =true;
     if(n<=1){
         flag=false;
