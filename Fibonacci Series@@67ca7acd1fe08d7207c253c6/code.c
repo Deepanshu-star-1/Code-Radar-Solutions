@@ -1,5 +1,5 @@
 #include<stdio.h>
-int f(int n){
+void f(int n){
     if(n<=0){
         printf("Invalid input\n");
         return 0;
