@@ -11,7 +11,7 @@ int main(){
     int element = arr[0];
     // 
     for(int i=0;i<=n-1;i++){
-        if(element < arr[i]){
+        if(element < arr[i+1]){
             element=arr[i];
 
         }         
