@@ -17,6 +17,7 @@ int main(){
             break;
         }
     }
+    // checkig condition
     if(a==true){
         printf("Sorted");
     }else{
