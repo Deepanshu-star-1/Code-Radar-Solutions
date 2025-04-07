@@ -11,7 +11,7 @@ int main(){
     int isSorted =1;
     // sorted array
     for(int i=0;i<=n-1;i++){
-        if(arr[i]>arr[i+1]){
+        if(arr[i]<arr[i-1]){
             isSorted=0;
             break;
         }
@@ -22,5 +22,5 @@ int main(){
     }else{
         printf("Not Sorted");
     }
-    
+    return 0;
 }
