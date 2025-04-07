@@ -10,7 +10,7 @@ int main(){
     }
     int element = arr[0];
     // 
-    for(int i=0;i<n-1;i++){
+    for(int i=0;i<n;i++){
         if(element < arr[i]){
             element=arr[i];
 
